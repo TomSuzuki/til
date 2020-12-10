@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>timer</title>
+</head>
+
+<body>
+
+    <div id="test">5秒ごとに文字が増える。</div>
+    <script type="text/javascript">
+        var count = 0;
+        function showDiag() {
+            count++;
+            var script = document.createElement("div");
+            script.innerHTML = `タイマーのサンプル。[${count}]<br>`;
+            document.body.appendChild(script);
+        }
+        setInterval(showDiag, 5000);
+    </script>
+
+</body>
+
+</html>
