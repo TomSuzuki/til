@@ -45,4 +45,4 @@
 サーバーダウンの可能性。
 
 ## 参考資料
-- [MDN Web Docs | HTTP レスポンスステータスコード](https://developer.mozilla.org/ja/docs/Web/HTTP/Status)
+- [MDN Web Docs / HTTP レスポンスステータスコード](https://developer.mozilla.org/ja/docs/Web/HTTP/Status)
